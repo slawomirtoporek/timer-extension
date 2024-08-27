@@ -20,3 +20,7 @@ chrome.storage.sync.get(["name", "notificationTime"], (res) => {
     nameInput.value = name;
   }
 });
+
+setInterval(() => {
+  console.log("options");
+}, 1000);
